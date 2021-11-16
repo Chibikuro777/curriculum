@@ -1,0 +1,38 @@
+@media screen and (max-width: 479px){
+    .container{
+        width: 200px;
+    }
+
+    header{
+        height: auto;
+    }
+
+    header, .sidebar, .right-sidebar, footer{
+        width: 100%;
+    }
+
+    nav{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin-right: 70px;
+    }
+
+    main{
+        display: block;
+        height: 100%;
+    }
+
+    .sidebar{
+        height: 100px;
+    }
+
+    .right-sidebar{
+        padding: 20px 0px 0px 30px;
+    }
+
+    footer{
+        width: 100%;
+        order: 1;
+    }
+}
