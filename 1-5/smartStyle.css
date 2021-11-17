@@ -13,9 +13,16 @@
 
     nav{
         flex-direction: column;
-        height: auto;
-        width: auto;
         margin-right: 70px;
+        height: auto;
+    }
+
+    .navbar:first-child{
+        border-width: 10px 10px 0px 10px;
+    }
+
+    .navbar:last-child{
+        border-width: 0px 10px 10px 10px;
     }
 
     main{
@@ -27,8 +34,13 @@
         height: 100px;
     }
 
+    .sidebar-nav{
+        width: 75%;
+    }
+
     .right-sidebar{
         padding: 20px 0px 0px 30px;
+        height: 220px;
     }
 
     footer{
